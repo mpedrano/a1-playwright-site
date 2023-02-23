@@ -1,0 +1,12 @@
+.arrows {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: fixed;
+    bottom: 5rem;
+    right: 7rem;
+}
+
+.arrows>a>span>img {
+    width: 2rem;
+}

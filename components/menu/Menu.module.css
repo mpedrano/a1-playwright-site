@@ -1,0 +1,51 @@
+.closedMenu {
+    width: 4rem;
+    object-fit: contain;
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+}
+
+.openMenu {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+}
+
+.menuBg {
+    max-width: 15rem;
+    z-index: 2;
+    position: absolute;
+}
+
+.menuExit {
+    color: var(--primary-color);
+    width: 4rem;
+    top: 3rem;
+    left: 3rem;
+    position: absolute;
+    z-index: 3;
+    font-weight: bolder;
+}
+
+.menuLinks {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 6rem;
+    left: 7rem;
+    gap: 1rem;
+    z-index: 3;
+    text-align: center;
+}
+
+@media only screen and (max-width: 896px) {
+    .closedMenu {
+        left: 3rem;
+    }
+
+    .openMenu {
+        left: 2rem;
+    }
+}

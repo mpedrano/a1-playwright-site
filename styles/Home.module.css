@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url('/background-images/backgroundMountain.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  color: var(--primary-color);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem;
+  max-width: 40rem;
+  row-gap: 1rem;
+  margin-left: 12rem;
+}
+
+.line {
+  border: 1.5px solid var(--secondary-color);
+  width: 16rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+  color: var(--quaternary-color);
+}
+
+@media screen and (min-width: 1180px) {}
+
+@media screen and (min-width: 896px) {}

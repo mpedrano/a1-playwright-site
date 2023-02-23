@@ -1,0 +1,12 @@
+.navbarImg {
+    position: absolute;
+    width: 4rem;
+    right: 7rem;
+    top: 3rem;
+}
+
+@media only screen and (max-width: 896px) {
+    .navbarImg {
+        right: 3rem;
+    }
+}

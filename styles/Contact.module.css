@@ -1,0 +1,96 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-image: url('/background-images/backgroundMountainUpsideDown.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    color: var(--primary-color);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    row-gap: 2rem;
+    padding-top: 10rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.line {
+    width: 20rem;
+    border: 2px solid var(--secondary-color);
+}
+
+.heading {
+    width: 15rem;
+    text-align: center;
+}
+
+.subheading {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.fieldContainer {
+    width: 50rem;
+    margin: auto;
+}
+
+.tableContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 25rem;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.button {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.button:hover {
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+}
+
+.errors {
+    text-align: center;
+    color: darkred;
+}
+
+@media screen and (min-width: 1180px) {}
+
+@media screen and (min-width: 896px) {}

@@ -1,0 +1,95 @@
+.container {
+    background-color: var(--quaternary-color);
+    color: var(--primary-color);
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40rem;
+    margin: auto;
+    padding-top: 8rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.line {
+    width: 20rem;
+    border: 2px solid var(--secondary-color);
+}
+
+.heading {
+    width: 12rem;
+    text-align: center;
+}
+
+.subheading {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.desc {
+    padding-bottom: 1rem;
+}
+
+.carouselImage {
+    position: relative;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.carouselImage>img {
+    width: 25rem;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.testOnImageHere {
+    background-color: rgba(16, 46, 53, 0.5);
+    padding: 10px;
+    margin: 0px 50px;
+}
+
+.carouselBtns {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 2rem;
+}
+
+.depts {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.depts>ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+@media screen and (min-width: 1180px) {}
+
+@media screen and (min-width: 896px) {}
